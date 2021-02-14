@@ -10,7 +10,9 @@ class FiltersScreen extends StatelessWidget {
           "Settings",
         ),
       ),
-      body: Container(),
+      body: Container(
+        child: Text("Settings"),
+      ),
     );
   }
 }
